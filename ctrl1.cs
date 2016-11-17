@@ -19,9 +19,9 @@ namespace TEST.UserControl
         public ctrl1()
         {
             InitializeComponent();
-            //this.StartPosition = FormStartPosition.Manual;
-            //obj_ctrlStaff = new ctrlStaff();
-            //obj_ctrlStaff.tblSave.Controls.Add(this);
+            this.StartPosition = FormStartPosition.Manual;
+            obj_ctrlStaff = new ctrlStaff();
+            obj_ctrlStaff.tblSave.Controls.Add(this);
             this.InitializeControl();
 
         }
@@ -39,7 +39,7 @@ namespace TEST.UserControl
         {
             this.cbo1.SelectedIndex = 0;
             this.txt1.Text = string.Empty;
-            //this.lblErrTxt1.Visible = false;
+            this.lblErrTxt1.Visible = false;
         }
 
         #endregion
