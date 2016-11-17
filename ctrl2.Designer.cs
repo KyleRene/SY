@@ -1,6 +1,6 @@
 ﻿namespace TEST.UserControl
 {
-    partial class ctrl2
+    partial class ctrlMe2
     {
         /// <summary> 
         /// Required designer variable.
@@ -142,13 +142,13 @@
             this.btn2.UseVisualStyleBackColor = false;
             this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
-            // ctrl2
+            // ctrlMe2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.Controls.Add(this.tblPhoneList);
-            this.Name = "ctrl2";
+            this.Name = "ctrlMe2";
             this.Size = new System.Drawing.Size(350, 180);
             this.tblPhoneList.ResumeLayout(false);
             this.tblPhoneList.PerformLayout();
