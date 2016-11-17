@@ -30,12 +30,12 @@ namespace TEST.UserControl
 
         private void btn1_Click(object sender, EventArgs e)
         {
-
+            string str = "How are you, sherry?";
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
-
+            string str1 = "Are you ok?";
         }
 
         private void btn3_Click(object sender, EventArgs e)
